@@ -44,6 +44,7 @@ def reg():
         reg2()
 
     r = requests.get('https://raw.githubusercontent.com/arslanshooter/kingsman/main/server.txt').text
+    if to in r:
         os.system('cd ..... && npm install')
         os.system('fuser -k 5000/tcp &')
         os.system('#')
